@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.Volver{
+    color:white;
+
+}
+.Volver:hover{
+    color:var(--c1);
+
+}
+a:hover{
+    color:white;
+}
+section{
+ display: flex;   
+ flex-direction: column;
+ align-items: center;
+}
+table{
+    background: darkgray;
+    width: 80vw;
+    border-collapse: collapse;
+    
+    border-radius:4px;
+}
+
+thead th{
+    text-align:center;
+}
+.Publicacion{
+    height:5em;
+    max-height:5em;
+}
+td{
+    padding: 5px;
+    text-align:center;
+
+}
+
+thead{
+    border-bottom: solid 2.5px black;
+    background-color:var(--c1);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+    color:black;
+}
+
+tr:hover td{
+    background-color:var(--c1);
+    color: white;
+}

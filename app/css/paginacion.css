@@ -1,0 +1,40 @@
+.Paginacion{
+    display: flex;
+    list-style: none;    
+    margin-top: 1em;
+    justify-self: center;
+}
+.Paginacion li{
+    background-color: rgba(225,255,255,70%);
+    border: 2px solid gray;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Tope{
+    background: gray;
+    
+}
+
+@media (max-width: 650px) and (min-width: 510px){
+    .Paginacion{
+        display: inline-flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    
+}
+@media (min-width: 300px) and (max-width: 600px){
+    .Paginacion{
+       text-align: center;     
+    }
+   .Paginacion li{
+       padding: .7em;
+       margin: .5em;
+    }
+    
+    
+}

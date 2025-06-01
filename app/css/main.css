@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+:root{
+    --bkg:#4A3F35;
+    --c1:#FF7D32;
+    --c2:#FFDDDD;
+    --c3:#40352b;
+    --f1:'Roboto Condensed';
+    --f2:'Poppins';
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: var(--bkg);
+	user-select: none;
+	overflow-x:hidden;
+    font-family: var(--f2);
+}
+a{
+    color:var(--bkg);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--c1);
+    text-decoration: underline;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--c1);
+    padding: 0px 5%;
+    font-family: var(--f2), sans-serif;
+    margin-bottom: 1.5em;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+.Header h1 a{
+    color:white;
+    font-size: 1.1em;
+    text-align: left;
+}
+.Header h1:hover{
+    text-decoration: underline white;
+    
+    
+}
+.Header ul{
+    list-style: none;
+    display: flex;
+    
+}
+.Header ul a{
+    font-family: var(--f1), sans-serif;
+    font-weight: 500;
+    width: 100%;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.Header ul li{
+    
+    padding: .5em;
+}
+.Header ul li a:hover {
+ background-color:rgba(255, 255, 255, 0.3);
+ border-radius: 4px;
+ padding: .5em;
+}
+
+
+#boton{
+    color:white;
+    justify-self: center;
+    font-size: 2em;
+    display: none;
+}
+
+@media (max-width: 750px){
+    .Header__nav a{
+        font-size: 1.3em;
+    }
+    .Header h1 a{
+        font-size: 1.2em;
+    }
+    .Header{
+        flex-direction: column;
+        padding: 1em;
+    }
+    
+ 
+}

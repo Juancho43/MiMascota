@@ -1,0 +1,12 @@
+<footer>
+<h4>Contacto</h4>
+    <article class="Contacto">
+        <p><span class="fas fa-map-marker-alt"></span>Miramar, Buenos Aires, Argentina</p>
+        <p><span class="fas fa-envelope"></span> <a href="mailto:soporte@mimascota.tk">soporte@mimascota.cf</a></p>
+        <p><span class="fas fa-envelope"></span>Para comunicarte con nosotros haga click <a href="../app/formulario-contacto.php" target="_blank" rel="noopener noreferrer">aquí</a></p>
+    </article>
+    <section class="Creditos">
+        <p>Desarrollado por Alvarez, Bravo, Gonzalez <span class="far fa-copyright"></span> 2021.</p>
+        <p><a href="https://highsoft-ar.com.ar/" target="_blank">Highsoft</a> <span class="far fa-copyright"></span> 2022.</p>
+    </section>
+</footer>
